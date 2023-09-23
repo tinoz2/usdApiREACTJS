@@ -6,7 +6,7 @@
 body{
     font-family: system-ui;
     /* background-color: #295f4e; */
-    background-image: url('https://img.freepik.com/foto-gratis/billie-dolar-fondo-dinero_1150-741.jpg?w=1380&t=st=1695390606~exp=1695391206~hmac=01c8f62cc8b7ed56678c622b82aceb4c01bf4a8637ed12744538663fd570efcc');
+    background-image: url('https://imgs.search.brave.com/qNUlZinJeVKLF8NucCdnoCKd6b-X-YdROjlot-82CJY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/Njg1ODEzNTczOTEt/YzcxYTE2NzVlZjkz/P2l4bGliPXJiLTQu/MC4zJml4aWQ9TTN3/eE1qQTNmREI4TUh4/elpXRnlZMmg4TVRC/OGZHUWxRek1sUWpO/c1lYSjhaVzU4TUh4/OE1IeDhmREE9Jnc9/MTAwMCZxPTgw');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,6 +31,8 @@ body{
     display: flex;
     justify-content: space-between;
     border: 2px solid white;
+    text-align: center;
+    align-items: center;
 }
 h1{
     padding: 3rem;
@@ -66,4 +68,16 @@ p{
     padding: 0.5rem;
     border-radius: 1rem;
     border: 2px solid white;
+}
+@media (max-width: 1000px){
+    .div{
+        width: 300px;
+    }
+    .div2{
+        padding: 1rem;
+    }
+    .span2, p{
+        font-size: 1rem;
+    }
+
 }
