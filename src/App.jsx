@@ -30,7 +30,7 @@ function App() {
                 <p>Compra dolar blue: </p> <span className='span2'>{usdData.blue_compra}$</span>
             </div>
             <div className='div2'>
-                <p>Venta dolar oficial: </p> <span className='span2'>{usdData.blue_venta}$</span>
+                <p>Venta dolar blue: </p> <span className='span2'>{usdData.blue_venta}$</span>
             </div>
         </div>
       ) : (
